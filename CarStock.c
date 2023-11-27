@@ -50,3 +50,47 @@ char  formattedTime[100];  //To get current date and time for billing
 char userreg[20];   //array to be used to display the bill of the car 
 char readbill[100];
 static int c=0;
+
+
+typedef struct PreOwnedCarManagementSystem
+{
+    char cbrand[20];
+    char cname[20];
+    char cyear[20];
+    char cfuel[20];
+    char cregnum[20];
+    char cCP[20];
+    char cLP[20];
+
+} car;
+
+car arr;
+
+
+void carstock()
+{
+
+    printf("Enter the brand of car:\n");
+    gets(arr.cbrand);                                          //using gets instead of scanf because of multiword string 
+  
+    printf("Enter the name of car:\n");
+    gets(arr.cname);
+
+    printf("Enter the manufacture year of car:\n");
+    gets(arr.cyear);
+
+    printf("Enter the fuel type of car:\n");
+    gets(arr.cfuel);
+
+    printf("Enter the registration number of car:\n");
+    gets(arr.cregnum);
+
+    printf("Enter the Cost Price of car:\n");
+    gets(arr.cCP);
+
+    printf("Enter the List Price of car:\n");
+    gets(arr.cLP);
+
+    database();   //calling database function in stock() to add the details in file
+}  
+
