@@ -1,6 +1,11 @@
 #ifndef CMNGT_h
 #define CMNGT_h
 
+#include <stdio.h>
+#include <string.h>
+#include<stdlib.h>
+#include<time.h>
+
 
 char cb[20];
 char cn[20];
