@@ -67,7 +67,7 @@ typedef struct PreOwnedCarManagementSystem
 car arr;
 
 
-void carstock()
+void CarStock()
 {
 
     printf("Enter the brand of car:\n");
