@@ -68,7 +68,7 @@ Enable users to search for specific cars based on criteria such as make, model, 
 Implement features to handle customer transactions, such as selling a car, generating invoices.
 
 
-##################################################################################################################################################################
+###########################################################################################################
 
 #Compile the Code
 
@@ -102,7 +102,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 Thanks to the C programming community for valuable insights and support.
 Feel free to customize this README file based on the specific details of Pre Owned Car Management System project. Add information about additional features, dependencies, or any other relevant details.
 
-##################################################################################################################################################################
-
-
+###########################################################################################################
 
